@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# 🎯 Adivinumator - Juego de Adivinanzas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido a Adivinador, un juego simple y divertido en React! El objetivo del juego es adivinar el número generado aleatoriamente por la máquina dentro de un rango definido.
 
-## Available Scripts
+## 🚀 Características
 
-In the project directory, you can run:
+- ✅ Generación automática de un número aleatorio dentro de un rango configurable.
+- ✅ Interfaz interactiva para que el usuario elija un número y vea si adivina.
+- ✅ Retroalimentación inmediata al usuario mediante alertas.
+- ✅ Actualización automática del número objetivo tras cada intento.
 
-### `npm start`
+### 🛠️ Tecnologías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React - Biblioteca para construir interfaces de usuario.
+- JavaScript (ES6+) - Para la lógica del juego.
+- HTML5 y CSS3 - Para la estructura y el diseño básico.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🖥️ Cómo ejecutar el proyecto
 
-### `npm test`
+Sigue los pasos para ejecutar el proyecto en tu máquina local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clonar el repositorio
+`git clone <URL_DE_TU_REPOSITORIO>`
+`cd <NOMBRE_DEL_PROYECTO>`
+2. Instalar dependencias
+Asegúrate de tener Node.js instalado, luego ejecuta:
+**npm install**
+3. Iniciar el servidor de desarrollo
+Ejecuta el siguiente comando para iniciar el servidor:
+**npm start**
+El proyecto se abrirá automáticamente en tu navegador en la dirección:`http://localhost:3000.`
 
-### `npm run build`
+### 🧩 Estructura del proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+├── src/
+│   ├── components/
+│   │   └── Adivinador.js    # Componente principal del juego
+│   ├── App.js               # Punto de entrada del componente raíz
+│   ├── index.js             # Renderizado en el DOM
+│   └── styles.css           # Estilos personalizados (si aplica)
+├── public/
+│   ├── index.html           # HTML principal
+│   └── ...
+├── package.json             # Configuración del proyecto y dependencias
+└── README.md                # Documentación del proyecto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
+### 🕹️ Cómo jugar
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Elige un número en el rango permitido (por defecto entre 1 y 10).
+2. Presiona el botón "Adivinar".
+3. El programa comparará tu número con el generado aleatoriamente por la máquina:
+ - Si aciertas, ¡verás un mensaje de felicitación!
+ - Si fallas, se te mostrará el número correcto.
+4. Inténtalo de nuevo con un nuevo número generado automáticamente.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ✨ Personalización
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Puedes personalizar el rango del juego modificando la propiedad props.limite en el componente Adivinador:
 
-## Learn More
+```javascript
+<Adivinador limite={10} />
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🐛 Contribuir
 
-### Code Splitting
+- Si encuentras un error o tienes ideas para mejorar este proyecto:
+- Abre un issue.
+- Envía un pull request con tus cambios.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📄 Licencia
 
-### Analyzing the Bundle Size
+Este proyecto está bajo la licencia MIT. Siéntete libre de usarlo, modificarlo y distribuirlo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🙌 Autor
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desarrollado con ❤️ por Laura Castaño (laucdevs)
