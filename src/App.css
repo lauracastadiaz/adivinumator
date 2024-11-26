@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+body{
+  margin: 20px;
+  background-color: #C2FFC7
+}
+img{
+  width: 200px;
+}
+div{
+  border: 1px solid #526E48;
+}
+h1{
+  font-size: 30px;
+  color: #526E48;
+  font-family: fantasy;
+  letter-spacing: 5px;
+}
+
+p{
+  color: #526E48;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+input{
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 2px solid #9EDF9C;
+}
+
+button{
+  margin: 20px;
+  padding: 10px;
+  color: #526E48;
+  background-color: #9EDF9C;
+  border-radius: 5px;
+  border: 2px solid #9EDF9C;
+  
+}
+
+button:hover{
+  color: #1A1A1D;
+  background-color: #D0E8C5;
+  cursor:pointer;
+}
+
