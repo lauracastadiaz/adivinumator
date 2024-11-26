@@ -76,4 +76,4 @@ Este proyecto está bajo la licencia MIT. Siéntete libre de usarlo, modificarlo
 
 ### 🙌 Autor
 
-Desarrollado con ❤️ por Laura Castaño (laucdevs)
+Desarrollado con ❤️ por **Laura Castaño** *(laucdevs)*
