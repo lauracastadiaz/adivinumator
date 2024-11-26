@@ -4,7 +4,7 @@
 
 ## 🌐 **URL del Sitio**
 ¡Prueba el juego en vivo aquí!  
-👉 [https://adivinumator-juego.netlify.app/] 
+👉 [https://adivinumator-juego.netlify.app/]
 
 ## 🚀 Características
 
