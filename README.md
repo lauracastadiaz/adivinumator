@@ -1,10 +1,10 @@
 # 🎯 Adivinumator - Juego de Adivinanzas
 
+¡Bienvenido a Adivinador, un juego simple y divertido en React! El objetivo del juego es adivinar el número generado aleatoriamente por la máquina dentro de un rango definido.
+
 ## 🌐 **URL del Sitio**
 ¡Prueba el juego en vivo aquí!  
 👉 [](https://)
-
-¡Bienvenido a Adivinador, un juego simple y divertido en React! El objetivo del juego es adivinar el número generado aleatoriamente por la máquina dentro de un rango definido.
 
 ## 🚀 Características
 
