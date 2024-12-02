@@ -49,3 +49,84 @@ button:hover{
   cursor:pointer;
 }
 
+/* Pantallas pequeñas (celulares, menos de 768px) */
+@media (max-width: 768px) {
+  body {
+    margin: 10px;
+    background-color: #E8FFE8; /* Un color más claro para pantallas pequeñas */
+  }
+
+  h1 {
+    font-size: 24px; /* Reducir el tamaño del título */
+    letter-spacing: 2px; /* Reducir el espaciado */
+  }
+
+  p {
+    font-size: 16px; /* Reducir el tamaño del texto */
+    letter-spacing: 1px; /* Reducir el espaciado */
+  }
+
+  input, button {
+    width: 100%; /* Que ocupen el ancho completo */
+    margin: 10px 0; /* Espacio uniforme arriba y abajo */
+  }
+
+  div {
+    border: none; /* Quitar bordes en pantallas pequeñas */
+  }
+}
+
+/* Pantallas medianas (tabletas, entre 768px y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 15px;
+    background-color: #C2FFC7; /* Mantener el color base */
+  }
+
+  h1 {
+    font-size: 26px; /* Reducir ligeramente el tamaño del título */
+    letter-spacing: 3px;
+  }
+
+  p {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+
+  input, button {
+    width: 80%; /* Que ocupen un 80% del ancho */
+  }
+
+  div {
+    padding: 10px; /* Agregar espacio dentro del contenedor */
+  }
+}
+
+/* Pantallas grandes (computadoras, más de 1024px) */
+@media (min-width: 1024px) {
+  body {
+    margin: 20px;
+    background-color: #C2FFC7;
+  }
+
+  h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+
+  p {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  input, button {
+    width: auto; /* Mantener tamaños automáticos */
+    margin: 20px;
+  }
+
+  div {
+    border: 1px solid #526E48; /* Mantener bordes */
+  }
+}
+
+
